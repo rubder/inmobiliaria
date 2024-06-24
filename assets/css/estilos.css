@@ -1,5 +1,4 @@
 .main-section {
-    background-image: url('../img/img-main.jpeg');
     background-size: cover; 
     background-position: center;
     height: 300px;
@@ -9,7 +8,19 @@
     color: #fff;
     text-align: center;
   }
-  
+
+  .main-section-index {
+    background-image: url('../img/img-main.jpeg');
+  }
+
+  .main-section-ventas {
+    background-image: url('../img/venta.jpg');
+  }
+
+  .main-section-alquileres {
+    background-image: url('../img/alquiler.jpg');
+  }
+
   .card img {
     height: 250px;
     object-fit: cover; 
